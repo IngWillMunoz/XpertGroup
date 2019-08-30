@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\IngWi\\OneDrive\\Escritorio\\Test2 .net\\AppXpertGroup\\AppXpertGroup.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\IngWi\\OneDrive\\Escritorio\\Test2 .net\\AppXpertGroup\\AppXpertGroup.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\IngWi\\OneDrive\\Escritorio\\Test2 .net\\AppXpertGroup\\AppXpertGroup.csproj",
+        "projectName": "AppXpertGroup",
+        "projectPath": "C:\\Users\\IngWi\\OneDrive\\Escritorio\\Test2 .net\\AppXpertGroup\\AppXpertGroup.csproj",
+        "packagesPath": "C:\\Users\\IngWi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IngWi\\OneDrive\\Escritorio\\Test2 .net\\AppXpertGroup\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\IngWi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

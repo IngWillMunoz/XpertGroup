@@ -1,0 +1,21 @@
+﻿@page
+@model TroubleAnswer
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<h1>Cube Summation</h1>
+<br>
+
+<div class="form-group">
+    <label for="input">Input</label>
+    <textarea class="form-control" name="input" id="input" rows="12"></textarea><br>
+
+    <div class="text-center">
+        <button id="calc" name="calc" class="btn btn-primary" runat="server" onclick="GetData()">Calcular</button>
+    </div>
+
+    <label for="input">Output</label>
+    <textarea class="form-control" name="Output" id="output" rows="6"></textarea>
+</div>
